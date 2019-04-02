@@ -8,6 +8,7 @@ import { NgForm } from '@angular/forms';
 })
 export class AppComponent {
   defaultquestion = 'pet';
+  answer = '';
 
   @ViewChild('f') signupForm: NgForm;
 
